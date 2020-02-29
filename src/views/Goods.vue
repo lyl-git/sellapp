@@ -68,7 +68,6 @@ export default {
   methods:{
         clickLeftTitle(index){
             this.curSelected=index
-
             //右侧滚动   queryseleted不支持数字类型的id
             this.rightDiv.scrollToElement(document.getElementById(index),600)  //用实例对象,要调用函数
     }

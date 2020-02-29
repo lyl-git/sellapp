@@ -75,7 +75,6 @@ import BScroll from "better-scroll";
             new BScroll(document.querySelector(".box"),{click: true});
         }
     }
-
 </script>
 
 <style lang="less" scoped>
@@ -83,6 +82,7 @@ import BScroll from "better-scroll";
     height: 400px;
     
     background: #F4F5F7;
+    //综合评价
     .score{
         display: flex;
         justify-content: space-around;
@@ -102,6 +102,7 @@ import BScroll from "better-scroll";
             // padding: 20px 0 20px 20px;
         }
     }
+    //综合评价统计//
     .score-count{
         background: #fff;
         border-bottom: 1px solid #ccc;
